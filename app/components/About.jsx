@@ -1,11 +1,12 @@
 var React = require('react');
 
 var About = (props) => {
-    return (
-      <div>
+  return (
+    <div>
       <h1 className="text-center">About</h1>
       <p>
-        This is a weather application build on React.
+        This is a weather application build on React. I have built this
+        for The Complete React Web App Developer Course.
       </p>
       <p>
         Here are some of the tools I used:
@@ -21,7 +22,7 @@ var About = (props) => {
         </li>
       </ul>
     </div>
-    );
-  };
+  )
+};
 
 module.exports = About;
